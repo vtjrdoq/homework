@@ -1,8 +1,37 @@
 .some-text {
     font-family: Montserrat, Arial, sans-serif;
-    font-size: 40px;
+    font-size: 10px;
     line-height: 80px;
     text-align: justify;
     font-weight: 500;
     font-style: italic;
+}
+
+.text-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.text-2 {
+    text-decoration: line-through;
+}
+
+.text-3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-4 {
+    color: #331451;
+    text-shadow: 1px 1px 2px #805ca5;
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+}
+
+.text-5 {
+    text-decoration: underline double;
+    letter-spacing: 5px;
 }
