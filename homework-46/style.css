@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.child, h1, p {
+    display: inline-block;
+}
+
+.parent {
+    background-color: #d5e4e9;
+    height: 600px;
+    overflow: auto;
+
+    border: 2px, solid, #646464;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.child {
+    height: 220px;
+    width: 280px;
+    background-color: #ccb38f;
+
+    margin: 10px 6px;
+    border: 2px, solid, #646464;
+    border-radius: 25px;
+
+    box-shadow: 0 0 15px 5px #9f8a6a inset;
+}
+
+h1{
+    margin: 35px 30px 25px;
+}
+
+p {
+    margin: 0 30px;
+    font-size: 18px;
+}
