@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(67, 63, 63);
+}
+
+p {
+    padding: 50px;
+    font-size: 25px;
+    color: bisque;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+}
+
+.square {
+    background-color: #fff;
+    min-height: 100px;
+    border-radius: 10px;
+    width: calc(50vw - 50px);
+
+    position: fixed;
+    left: 50%;
+    bottom: 100px;
+}
+
+.circle {
+    background-color: #c00f0f;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+
+    position: fixed;
+    left: calc(50vw + 100px);
+    bottom: 150px;
+}
