@@ -1,0 +1,55 @@
+/* @font-face {
+    font-family: "Integral";
+    src:
+        url("../fonts/IntegralCF/integralcf-regular.woff2") format('woff2'),
+        url("../fonts/IntegralCF/integralcf-regular.woff") format('woff'),
+        url("../fonts/IntegralCF/integralcf-regular.ttf") format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Integral';
+    src: url('../fonts/IntegralCF/integralcf-regular.woff2') format('woff2'),
+        url('../fonts/IntegralCF/integralcf-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src:
+        local("Satoshi 700"), local("Satoshi-700"), 
+        url("../fonts/Satoshi/Satoshi-Bold.woff2") format('woff2'),
+        url("../fonts/Satoshi/Satoshi-Bold.woff") format('woff'),
+        url("../fonts/Satoshi/Satoshi-Bold.ttf") format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src:
+        local("Satoshi 500"), local("Satoshi-500"), 
+        url("../fonts/Satoshi/Satoshi-Medium.woff2") format('woff2'),
+        url("../fonts/Satoshi/Satoshi-Medium.woff") format('woff'),
+        url("../fonts/Satoshi/Satoshi-Medium.ttf") format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src:
+        local("Satoshi 400"), local("Satoshi-400"), 
+        url("../fonts/Satoshi/Satoshi-Regular.woff2") format('woff2'),
+        url("../fonts/Satoshi/Satoshi-Regular.woff") format('woff'),
+        url("../fonts/Satoshi/Satoshi-Regular.ttf") format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
